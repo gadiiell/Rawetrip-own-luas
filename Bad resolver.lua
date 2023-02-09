@@ -8,8 +8,8 @@ local check = true;
 local p = false;
 local n = false;
 ui.add_checkbox("Enable Resolver correction")
-ui.add_checkbox("Enable NoNameRR Resolver")
-cheat.notify("Resolver correction NoNameRR")
+ui.add_checkbox("Enable プレイヤー-2 Resolver")
+cheat.notify("Resolver correction プレイヤー-2")
 local function resolver(shot_info)
 if ui.get_bool("Enable Resolver correction") == true then
 	local result = shot_info.result
